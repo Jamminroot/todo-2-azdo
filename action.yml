@@ -1,0 +1,9 @@
+name: "TODO-2-gh-issue"
+description: "Customizable TODO-To-GitHub issue conversion."
+author: "Chichuk Dmitrii"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "book-open"
+  color: "blue"
