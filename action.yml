@@ -1,9 +1,9 @@
-name: "TODO-2-gh-issue"
-description: "Customizable TODO-To-GitHub issue conversion."
+name: "TODO-2-azdo"
+description: "Customizable TODO-To-Azure DevOps work item converter."
 author: "Chichuk Dmitrii"
 runs:
   using: "docker"
   image: "Dockerfile"
 branding:
   icon: "book-open"
-  color: "blue"
+  color: "red"
