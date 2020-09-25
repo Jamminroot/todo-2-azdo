@@ -50,7 +50,8 @@ Create a workflow file in your .github/workflows/ directory as follows:
 
 > **NOTE:** Keep in mind that you have to escape slashes in regex patterns when putting them to yml
 
-> **NOTE:** Put `${{ secrets.GITHUB_TOKEN }}` as a value for `TOKEN`
+> **NOTE:** Always put values for `TOKEN`, `AZDO_TOKEN` as secrets in github action preferences.
+> Consider hiding `AZDO_ORGANIZATION`, `AZDO_TEAM` and `AZDO_PROJECT` if that might concern you.
 
 ### Inputs
 
